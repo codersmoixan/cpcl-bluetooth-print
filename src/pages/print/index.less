@@ -1,0 +1,55 @@
+/* pages/print/index.wxss */
+.print-device {
+  padding: 40rpx 32rpx;
+  &__hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32rpx;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 44rpx;
+    color: #333;
+    margin-bottom: 20rpx;
+    &__desc {
+      font-size: 28rpx;
+      font-family: PingFang SC;
+      font-weight: 700;
+      line-height: 40rpx;
+      color: #1A83F9;
+    }
+  }
+}
+.device-row {
+  display: flex;
+  align-items: center;
+  border-radius: 8rpx;
+  border: 1px solid #C7C6C6;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  &__bd {
+    flex: 1;
+    font-size: 36rpx;
+    font-family: PingFang SC;
+    font-weight: 700;
+    line-height: 50rpx;
+    color: #333;
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+  &__ft {
+    flex-shrink: 0;
+  }
+}
+
+.print-button {
+  background: #F8C82D;
+  line-height: 80rpx;
+  border-radius: 8rpx;
+  font-size: 32rpx;
+  text-align: center;
+  padding: 0 20rpx;
+  & + & {
+    margin-top: 10rpx;
+  }
+}

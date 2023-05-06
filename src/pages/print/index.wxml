@@ -1,0 +1,30 @@
+<!--pages/print/index.wxml-->
+<view class="print-device">
+  <view class="print-device__hd">
+    <view class="print-device__hd__title">选择打印设备</view>
+    <view bindtap="research" class="print-device__hd__desc">重新搜索</view>
+  </view>
+
+  <view wx:for="{{ printList }}" wx:key="deviceId"class="device-row">
+    <view class="device-row__bd">{{ item.name || '未知设备' }}</view>
+    <view  class="device-row__ft">
+      <view style="font-size: 28rpx;">
+        <view bindtap="onClickConnectDevice" mark:deviceId="{{ item.deviceId }}" class="print-button" >打印示例</view>
+        <view bindtap="getCanvasImage" mark:deviceId="{{ item.deviceId }}" class="print-button" >打印画布图片</view>
+        <view bindtap="printCacheImage" mark:deviceId="{{ item.deviceId }}" class="print-button" >打印图片</view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{ printList.length == 0 }}" style="font-size: 28rpx;color:#333;" class="">
+    未找到打印机
+  </view>
+</view>
+
+<view class="print-device">
+  <view class="print-device__hd">
+    <view class="print-device__hd__title">画布图片容器</view>
+  </view>
+  <view class="print-device__bd">
+    <canvas style="width: {{ canvasWidth }}px; height: {{ canvasHeight }}px" canvas-id="secondCanvas"></canvas>
+  </view>
+</view> 

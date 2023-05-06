@@ -49,12 +49,13 @@
     "useCompilerPlugins": [
       "less"
     ],
-    "useStaticServer": true
+    "useStaticServer": true,
+    "condition": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.15.0",
   "appid": "wx2494b493238d5ed4",
-  "projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%9D%BF",
+  "projectname": "cpcl-bluetooth-print",
   "srcMiniprogramRoot": "src/",
   "editorSetting": {
     "tabIndent": "insertSpaces",

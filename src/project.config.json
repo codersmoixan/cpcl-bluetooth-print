@@ -42,7 +42,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.31.0",
   "appid": "wx2494b493238d5ed4",
-  "projectname": "CPCL",
+  "projectname": "cpcl-bluetooth-print",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",

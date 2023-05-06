@@ -29,7 +29,7 @@ Page({
     console.log(event.mark.deviceId);
     this.printTemplate(event.mark.deviceId)
   },
-
+  
   printTemplate(deviceId) {
     const command = SF()
 

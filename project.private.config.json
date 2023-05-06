@@ -3,8 +3,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/detail/index",
-          "pathName": "pages/detail/index",
+          "name": "pages/print/index",
+          "pathName": "pages/print/index",
           "query": "",
           "scene": null
         },
@@ -18,7 +18,7 @@
       ]
     }
   },
-  "projectname": "miniprogram-buletooth-print",
+  "projectname": "cpcl-bluetooth-print",
   "setting": {
     "compileHotReLoad": true
   },

@@ -1,7 +1,6 @@
-/* pages/print/index.wxss */
 .print-device {
   padding: 40rpx 32rpx;
-  &__hd {
+  .print-device__hd {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,15 +10,16 @@
     line-height: 44rpx;
     color: #333;
     margin-bottom: 20rpx;
-    &__desc {
-      font-size: 28rpx;
-      font-family: PingFang SC;
-      font-weight: 700;
-      line-height: 40rpx;
-      color: #1A83F9;
-    }
+  }
+  .print-device__hd__desc {
+    font-size: 28rpx;
+    font-family: PingFang SC;
+    font-weight: 700;
+    line-height: 40rpx;
+    color: #1A83F9;
   }
 }
+
 .device-row {
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@
   border: 1px solid #C7C6C6;
   padding: 20rpx;
   margin-bottom: 20rpx;
-  &__bd {
+  .device-row__bd {
     flex: 1;
     font-size: 36rpx;
     font-family: PingFang SC;
@@ -37,7 +37,7 @@
     word-wrap: break-word;
     word-break: break-all;
   }
-  &__ft {
+  .device-row__ft {
     flex-shrink: 0;
   }
 }

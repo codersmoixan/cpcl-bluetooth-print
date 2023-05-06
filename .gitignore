@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+package-lock.json
+.idea
+
+# 测试
+/tests/
+
+# miniprogram
+sourcemap.zip
+miniprogram_npm
